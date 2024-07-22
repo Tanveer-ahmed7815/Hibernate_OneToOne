@@ -13,7 +13,8 @@ public class LaptopInfo {
 	private int laptopId;
 	@Column(name="lname")
 	private String laptopName;
-	
+
+	//constructor
 	public LaptopInfo(int laptopId, String laptopName) {
 		this.laptopId = laptopId;
 		this.laptopName = laptopName;
